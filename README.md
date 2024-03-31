@@ -32,6 +32,7 @@ Estos mensjaes se imprimirán en el monitor serial cada vez que se ejecuta la re
 
 
 **2. Funcionamiento**
+
 En la función 'void setup()'se inicia la comunicación a una velocidad de 112500 baudios, se configura el pin LED como salida y se crea el semáforo utilizando 'xSemaphoreCreateMutex()'. 
 
 
@@ -97,11 +98,7 @@ graph TD;
 ```
 
 **Conclusión**
+
 En esta práctica he aprendido cómo controlar un LED utilizando un microcontrolador (ESP32) con múltiples tareas mediante semáforos. He aprendido a hacer que el ESP32 realice varias cosas al mismo tiempo, como encender y apagar el LED, sin que una tarea interfiera con la otra. También he aprendido cómo evitar que dos tareas intenten usar el LED al mismo tiempo, lo que podría causar problemas.
 
 He utilizado la comunicación serial para imprimir mensajes, ya que personalmente me han ayudado a entender qué estaba haciendo el programa en cada momento y a solucionar problemas más fácilmente.
-
-
-
-
-
