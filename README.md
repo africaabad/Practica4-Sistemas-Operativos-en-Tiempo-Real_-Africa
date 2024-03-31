@@ -15,8 +15,8 @@ se ejecutan dividiendo el tiempo de uso de la cpu.
 1. Descibir la salida por el puerto serie 
 
 
-    this is ESP32 task
-    this is another task
+        this is ESP32 task
+        this is another task
 
 
 La salida por el puerto serie intercala estos dos mensajes que se repiten continuamente, ya que ambas funciones se ejecutan en paralelo.
